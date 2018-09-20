@@ -37,11 +37,8 @@
           }) // HTTP GET Request
           // .get('https://api.chucknorris.io/jokes/random')
           .then(response => {
-            // console.log('give me the result', response.data.value);
             // console.log('give me the result', response);
           })
-
-
           .catch(error => { // Executes if an error occurs if code is not >= 200 && < 300
 
           })
@@ -56,15 +53,15 @@
     data() {
       // return the data
       return {
-        devServer:  {
-        historyApiFallback: true,
-        watchOptions: { aggregateTimeout: 300, poll: 1000 },
-        headers: {
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
-          "Access-Control-Allow-Headers": "X-Requested-With, content-type, Authorization"
-        }
-      }
+      //   devServer:  {
+      //   historyApiFallback: true,
+      //   watchOptions: { aggregateTimeout: 300, poll: 1000 },
+      //   headers: {
+      //     "Access-Control-Allow-Origin": "*",
+      //     "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
+      //     "Access-Control-Allow-Headers": "X-Requested-With, content-type, Authorization"
+      //   }
+      // }
     }
     },
 
@@ -88,7 +85,6 @@
         .y(d => y(d));
 
       svg.append('path').attr('d', createPath(data));
-
 
       this.getData();
     },

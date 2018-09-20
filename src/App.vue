@@ -10,8 +10,6 @@
       |
       <router-link to="/d3js">d3.js</router-link>
       |
-      <router-link to="/chartjs">Chart.js</router-link>
-      |
       <router-link to="/highcharts">HighCharts</router-link>
 
     </div>
