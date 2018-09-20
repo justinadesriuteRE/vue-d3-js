@@ -5,12 +5,10 @@
 </template>
 
 <script>
-  import axios from 'axios';
-
   export default {
     name: 'InitialPage',
     mounted() {
-        console.log('the app has mounted!');
+        // console.log('the app has mounted!');
     },
   };
 </script>

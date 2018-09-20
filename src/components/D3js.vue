@@ -10,7 +10,7 @@
   export default {
     name: 'ddreiexample',
       mounted() {
-        console.log('this is my d3', d3);
+        // console.log('this is my d3', d3);
     },
   };
 </script>

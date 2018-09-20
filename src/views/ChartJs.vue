@@ -62,7 +62,7 @@
     },
 
      parseData(response) {
-        return _.map(response, (value, key) => [moment(key, 'YYYY-MM-DD').valueOf(), value]);
+        // return _.map(response, (value, key) => [moment(key, 'YYYY-MM-DD').valueOf(), value]);
       },
 
     /**

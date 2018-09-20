@@ -38,7 +38,7 @@
           // .get('https://api.chucknorris.io/jokes/random')
           .then(response => {
             // console.log('give me the result', response.data.value);
-            console.log('give me the result', response);
+            // console.log('give me the result', response);
           })
 
 
