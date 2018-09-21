@@ -15,3 +15,7 @@ module.exports = {
       ? '/vue-d3-js/'
       : '/'
   }
+
+module.exports = {
+    exclude: ['Web_Optimizaion/node_modules/nunjucks/CHANGELOG.md']
+  }
