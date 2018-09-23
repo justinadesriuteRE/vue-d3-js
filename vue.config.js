@@ -1,21 +1,17 @@
 module.exports = {
     devServer: {
-        historyApiFallback: true,
-        watchOptions: { aggregateTimeout: 300, poll: 1000 },
+        port: 9000,
         headers: {
+            'X-Custom-Foo': 'bar',
             "Access-Control-Allow-Origin": "*",
             "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
-            "Access-Control-Allow-Headers": "X-Requested-With, content-type, Authorization"
+            "Access-Control-Allow-Headers": "*"
         }
     }
 }
 
-module.exports = {
-    baseUrl: process.env.NODE_ENV === 'production'
-      ? '/vue-d3-js/'
-      : '/'
-  }
-
-module.exports = {
-    exclude: ['Web_Optimizaion/node_modules/nunjucks/CHANGELOG.md']
-  }
+// module.exports = {
+//     baseUrl: process.env.NODE_ENV === 'production'
+//       ? '/vue-d3-js/'
+//       : '/'
+//   }

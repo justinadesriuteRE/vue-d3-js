@@ -1,6 +1,6 @@
 <template>
   <div id="ddreiexample">
-    <h1>here will go a d3.js example</h1>
+    <h1>Average attendance of footbal matches in different cities</h1>
   </div>
 </template>
 
