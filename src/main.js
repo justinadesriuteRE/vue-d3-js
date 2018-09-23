@@ -5,7 +5,6 @@ import router from './router';
 import HighchartsVue from 'highcharts-vue';
 import Highcharts from 'highcharts';
 import stockInit from 'highcharts/modules/stock';
-// import * as d3 from 'd3';
 
 stockInit(Highcharts);
 

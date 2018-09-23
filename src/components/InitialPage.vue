@@ -1,6 +1,6 @@
 <template>
   <div id="initial">
-    <h1>Welcome page to the application</h1>
+    <h1>Welcome! You have entered exemplary application in which Vue.js is integrated with different charting libraries</h1>
   </div>
 </template>
 

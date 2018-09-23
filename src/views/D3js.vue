@@ -17,7 +17,6 @@
     methods: {
       // define a method that will be used to get the data from the API
       getData() {
-        // console.log('testing the getData() call');
         axios
           .get('https://repods.io/api/markode/FIFAWorldCup/reports/5818', {
             auth: {
@@ -25,7 +24,6 @@
                 password: ''
             }
           }) // HTTP GET Request
-          // .get('https://api.chucknorris.io/jokes/random')
           .then(response => {
             const fulldataset = response.data;
 
@@ -37,11 +35,9 @@
             const avgattendance = fulldataset.map(function (attendance, index, array) {
                 return attendance.tAvg_tAvg_Attendance;
             });
-            console.log('attendance', avgattendance);
 
           const data = avgattendance;
 
-          console.log('daaaaaaaaaata', data,);
           const svg = d3.select(this.$el)
             .append('svg')
             .attr('width', 500)
@@ -54,7 +50,6 @@
 
           d3.axisLeft().scale(x);
           d3.axisTop().scale(y);
-          console.log('data', data);
           x.domain(d3.extent(data, (d, i) => i));
           y.domain([0, d3.max(data, d => d)]);
 

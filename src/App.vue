@@ -6,9 +6,9 @@
       <!-- Page Navigation -->
       <router-link to="/initialpage">Initial Page</router-link>
       |
-      <router-link to="/">Overview</router-link>
+      <router-link to="/">Overview of Bitcoin Status</router-link>
       |
-      <router-link to="/d3js">d3.js</router-link>
+      <router-link to="/d3js">d3.js: Football!</router-link>
       |
       <router-link to="/highcharts">HighCharts</router-link>
 
